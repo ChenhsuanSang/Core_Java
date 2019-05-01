@@ -16,7 +16,8 @@ public class ParamTest {
 		tripleValue(percent);
 		System.out.println("After: percent = " + percent);
 
-		// Test 2: Methods can change the state of object parameters.
+
+// Test 2: Methods can change the state of object parameters.
 		System.out.println("\nTesting tripleSalary:");
 		Employee harry = new Employee("Harry", 5000.0);
 		System.out.println("Before: Salary = " + harry.getSalary());
