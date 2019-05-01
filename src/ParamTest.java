@@ -2,7 +2,10 @@
  * This program demonstrates parameter in Java.
  * @version 1.00 2019-4-30
  * @author Chenhsuan
- */
+ *//*
+
+
+import java.lang.*;
 
 public class ParamTest {
 	public static void main(String[] args)	{
@@ -15,7 +18,7 @@ public class ParamTest {
 
 		// Test 2: Methods can change the state of object parameters.
 		System.out.println("\nTesting tripleSalary:");
-		Employee harry = new Employee("Harry", 5000);
+		Employee harry = new Employee("Harry", 5000.0);
 		System.out.println("Before: Salary = " + harry.getSalary());
 		tripleSalary(harry);
 		System.out.println("After: Salary = " + harry.getSalary());
@@ -82,3 +85,4 @@ class Employee {
 		this.salary += raise;
 	}
 }
+*/

@@ -20,4 +20,20 @@ public class Employee {
 		this.hireDay = LocalDate.of(year, month, day);
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public LocalDate getHireDay() {
+		return hireDay;
+	}
+
+	public void riseSalary(int byPercent){
+		double rise = this.salary*byPercent/100;
+		this.salary += rise;
+	}
 }
