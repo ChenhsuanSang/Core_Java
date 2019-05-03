@@ -44,6 +44,7 @@ class tmpEmployee   {
 		nextId++;
 	}
 
+
 	//three overloaded constructors
 	public tmpEmployee(String n, double s) {
 		this.name = n;
