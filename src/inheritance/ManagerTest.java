@@ -2,7 +2,7 @@ package inheritance;
 
 /**
  * This program demonstrates inheritance.
- * @version 1.21 2019-5-1
+ * @version 1.21 2019-5-3
  * @author chenhusan
  */
 
