@@ -33,12 +33,12 @@ public class ButtonFrame extends JFrame {
         // create button actions.
         ColorAction yellowAction = new ColorAction(Color.YELLOW);
         ColorAction blueAction = new ColorAction(Color.BLUE);
-        ColorAction redwAcion = new ColorAction(Color.RED);
+        ColorAction redAcion = new ColorAction(Color.RED);
 
         // associate action with buttons.
         yelloButton.addActionListener(yellowAction);
         blueButton.addActionListener(blueAction);
-        redButtono.addActionListener(redwAcion);
+        redButtono.addActionListener(redAcion);
     }
     private class ColorAction implements ActionListener{
         private Color background;
@@ -53,6 +53,9 @@ public class ButtonFrame extends JFrame {
         }
     }
 
+    /**
+     * An action listener that set s the panel's background color.
+     */
     public static void main(String[] args) {
         EventQueue.invokeLater(()->
         {
@@ -64,6 +67,3 @@ public class ButtonFrame extends JFrame {
     }
 }
 
-/**
- * An action listener that set s the panel's background color.
- */
